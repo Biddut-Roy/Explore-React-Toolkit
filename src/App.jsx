@@ -1,4 +1,6 @@
 import './App.css'
+import AddToto from './component/AddToto'
+import Todos from './component/Todos'
 
 function App() {
 
@@ -6,6 +8,8 @@ function App() {
     <>
       <div>
         <h1>Explore a Redux Toolkit</h1>
+        <AddToto />
+        <Todos />
       </div>
         
     </>
