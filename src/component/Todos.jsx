@@ -12,8 +12,8 @@ const Todos = () => {
                 todos.map(todo =>(
                     <li key={todo.id}>
                         {todo.text}
-                        <button onClick={()=> dispatch(removeTodo(todo.id))}>
-                            X
+                        <button style={{ marginRight: '-10px' }} onClick={()=> dispatch(removeTodo(todo.id))}>
+                            x
                             </button>
                     </li>
                 ))
