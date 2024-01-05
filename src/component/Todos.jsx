@@ -13,7 +13,7 @@ const Todos = () => {
                     <li key={todo.id}>
                         {todo.text}
                         <button style={{ marginRight: '-10px' }} onClick={()=> dispatch(removeTodo(todo.id))}>
-                            x
+                            Delete
                             </button>
                     </li>
                 ))
